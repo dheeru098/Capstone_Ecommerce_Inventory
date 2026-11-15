@@ -1,0 +1,14 @@
+BACKEND DEVELOPMENT CAPSTONE - PROJECT 4
+
+1. Open the folder in VS Code.
+2. Open Terminal > New Terminal.
+3. Run: npm install
+4. Run: Copy-Item .env.example .env
+5. Edit .env and check MongoDB is installed/running or set an Atlas URI.
+6. Run: npm run seed
+7. Run: npm run dev
+8. Check: http://localhost:5000/api/health
+9. Import both JSON files from postman/ into Postman.
+10. Run customer/seller/admin login requests and follow the README.
+
+Read README.md for details. Do not submit your .env or node_modules folder.

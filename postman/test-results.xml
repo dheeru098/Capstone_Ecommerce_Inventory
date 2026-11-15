@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Capstone - E-Commerce and Inventory Management" tests="47" time="10.052">
+  <testsuite name="01 - Health and Login / Health Check" id="5f94d635-27bb-4ad2-961c-bed0ebedaf9d" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.094">
+    <testcase name="HTTP 200" time="0.094" classname="01HealthAndLoginHealthCheck"/>
+  </testsuite>
+  <testsuite name="01 - Health and Login / Login Customer" id="bf24f676-f826-4dbf-a206-b1be47ffcbfd" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.830">
+    <testcase name="HTTP 200" time="0.830" classname="01HealthAndLoginLoginCustomer"/>
+  </testsuite>
+  <testsuite name="01 - Health and Login / Login Seller" id="d688b239-c1e7-40f5-9f50-3d2b5bf8c3cf" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.544">
+    <testcase name="HTTP 200" time="0.544" classname="01HealthAndLoginLoginSeller"/>
+  </testsuite>
+  <testsuite name="01 - Health and Login / Login Admin" id="5a2e441c-f845-4927-9eec-0fa5460e7575" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.716">
+    <testcase name="HTTP 200" time="0.716" classname="01HealthAndLoginLoginAdmin"/>
+  </testsuite>
+  <testsuite name="01 - Health and Login / My Profile (Customer)" id="cbb11796-7469-4704-a949-9d24167dbba6" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.097">
+    <testcase name="HTTP 200" time="0.097" classname="01HealthAndLoginMyProfileCustomer"/>
+  </testsuite>
+  <testsuite name="01 - Health and Login / Update My Name (Customer)" id="53a80f74-84dc-42df-9659-b1e6dd3576d6" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.156">
+    <testcase name="HTTP 200" time="0.156" classname="01HealthAndLoginUpdateMyNameCustomer"/>
+  </testsuite>
+  <testsuite name="01 - Health and Login / List Users (Admin)" id="7b9c892a-2050-46e0-87de-6eb44dc8ada1" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.162">
+    <testcase name="HTTP 200" time="0.162" classname="01HealthAndLoginListUsersAdmin"/>
+  </testsuite>
+  <testsuite name="02 - Categories and Products / List Categories" id="9fdb6126-9819-41fe-a579-18565dd153a2" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.089">
+    <testcase name="HTTP 200" time="0.089" classname="02CategoriesAndProductsListCategories"/>
+  </testsuite>
+  <testsuite name="02 - Categories and Products / Create Category (Admin)" id="045ebeb5-1735-42ff-b31c-8f6703df59ec" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.185">
+    <testcase name="HTTP 201" time="0.185" classname="02CategoriesAndProductsCreateCategoryAdmin"/>
+  </testsuite>
+  <testsuite name="02 - Categories and Products / Get Category" id="a48a2826-d8e7-4494-a418-f9fc16a88394" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.081">
+    <testcase name="HTTP 200" time="0.081" classname="02CategoriesAndProductsGetCategory"/>
+  </testsuite>
+  <testsuite name="02 - Categories and Products / Update Category (Admin)" id="239b7355-858b-4382-8d4d-58c49435adae" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.132">
+    <testcase name="HTTP 200" time="0.132" classname="02CategoriesAndProductsUpdateCategoryAdmin"/>
+  </testsuite>
+  <testsuite name="02 - Categories and Products / Create Product (Seller)" id="e5a7b6a6-9bce-45c1-85de-9ffd0c8bf61e" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.219">
+    <testcase name="HTTP 201" time="0.219" classname="02CategoriesAndProductsCreateProductSeller"/>
+  </testsuite>
+  <testsuite name="02 - Categories and Products / List Products" id="6630d58d-7a3a-4346-8c22-147bd3961c0d" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.309">
+    <testcase name="HTTP 200" time="0.309" classname="02CategoriesAndProductsListProducts"/>
+  </testsuite>
+  <testsuite name="02 - Categories and Products / Search Products" id="8684ccbf-1a1a-4373-a438-365c3fe08ae1" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.114">
+    <testcase name="HTTP 200" time="0.114" classname="02CategoriesAndProductsSearchProducts"/>
+  </testsuite>
+  <testsuite name="02 - Categories and Products / Get Product" id="b17404ac-6c45-4ae2-973e-394159d70395" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.157">
+    <testcase name="HTTP 200" time="0.157" classname="02CategoriesAndProductsGetProduct"/>
+  </testsuite>
+  <testsuite name="02 - Categories and Products / Update Product (Seller)" id="7b86fc7f-7b7e-4e1f-a4dd-76c9e0cfa631" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.251">
+    <testcase name="HTTP 200" time="0.251" classname="02CategoriesAndProductsUpdateProductSeller"/>
+  </testsuite>
+  <testsuite name="02 - Categories and Products / Adjust Stock +3 (Seller)" id="f8437408-f235-494e-baea-07d544086c18" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.227">
+    <testcase name="HTTP 200" time="0.227" classname="02CategoriesAndProductsAdjustStock3Seller"/>
+  </testsuite>
+  <testsuite name="02 - Categories and Products / Inventory Report (Seller)" id="091f3b7b-95db-4d1d-907d-8766516607b7" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.146">
+    <testcase name="HTTP 200" time="0.146" classname="02CategoriesAndProductsInventoryReportSeller"/>
+  </testsuite>
+  <testsuite name="03 - Cart and Order Workflow / View Cart (Customer)" id="f01d6eea-cfd9-4334-992b-58ab09f66db4" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.231">
+    <testcase name="HTTP 200" time="0.231" classname="03CartAndOrderWorkflowViewCartCustomer"/>
+  </testsuite>
+  <testsuite name="03 - Cart and Order Workflow / Add to Cart (Customer)" id="794f7c1a-2a71-45ff-9e0d-71bc9e04d164" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.410">
+    <testcase name="HTTP 200" time="0.410" classname="03CartAndOrderWorkflowAddToCartCustomer"/>
+  </testsuite>
+  <testsuite name="03 - Cart and Order Workflow / Set Cart Quantity (Customer)" id="eaf70922-2201-4bdd-890d-81dd607c6868" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.308">
+    <testcase name="HTTP 200" time="0.308" classname="03CartAndOrderWorkflowSetCartQuantityCustomer"/>
+  </testsuite>
+  <testsuite name="03 - Cart and Order Workflow / View Cart with Total" id="e17b5df7-d23a-4ac0-8ed8-45abb627dccd" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.214">
+    <testcase name="HTTP 200" time="0.214" classname="03CartAndOrderWorkflowViewCartWithTotal"/>
+  </testsuite>
+  <testsuite name="03 - Cart and Order Workflow / Place Order (Customer)" id="d51a40b2-60e6-43b3-8160-5aebae548ae5" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.642">
+    <testcase name="HTTP 201" time="0.642" classname="03CartAndOrderWorkflowPlaceOrderCustomer"/>
+  </testsuite>
+  <testsuite name="03 - Cart and Order Workflow / My Orders (Customer)" id="c65a7036-ebd7-495c-8e80-75d3151fe81d" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.174">
+    <testcase name="HTTP 200" time="0.174" classname="03CartAndOrderWorkflowMyOrdersCustomer"/>
+  </testsuite>
+  <testsuite name="03 - Cart and Order Workflow / Order Details (Customer)" id="4f8c0996-0d72-4b3d-8743-1a5f8c867348" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.264">
+    <testcase name="HTTP 200" time="0.264" classname="03CartAndOrderWorkflowOrderDetailsCustomer"/>
+  </testsuite>
+  <testsuite name="03 - Cart and Order Workflow / Orders Containing Seller Products" id="aafaa7db-00df-45e7-8bc6-6ca2a6a9d3c1" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.168">
+    <testcase name="HTTP 200" time="0.168" classname="03CartAndOrderWorkflowOrdersContainingSellerProducts"/>
+  </testsuite>
+  <testsuite name="03 - Cart and Order Workflow / Update Order to Processing (Seller)" id="46751e6c-e9d2-4c39-bc66-7eca07a4ad6a" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.234">
+    <testcase name="HTTP 200" time="0.234" classname="03CartAndOrderWorkflowUpdateOrderToProcessingSeller"/>
+  </testsuite>
+  <testsuite name="03 - Cart and Order Workflow / Update Order to Shipped (Seller)" id="49f8d9e0-63e8-42a2-99e3-620a8d8c2e04" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.227">
+    <testcase name="HTTP 200" time="0.227" classname="03CartAndOrderWorkflowUpdateOrderToShippedSeller"/>
+  </testsuite>
+  <testsuite name="03 - Cart and Order Workflow / Update Order to Delivered (Seller)" id="a0036372-7e66-4c59-9d8e-a88c137697db" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.251">
+    <testcase name="HTTP 200" time="0.251" classname="03CartAndOrderWorkflowUpdateOrderToDeliveredSeller"/>
+  </testsuite>
+  <testsuite name="03 - Cart and Order Workflow / Sales Report (Admin)" id="5b012f5f-8420-4feb-a3c6-e0843d32273b" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.160">
+    <testcase name="HTTP 200" time="0.160" classname="03CartAndOrderWorkflowSalesReportAdmin"/>
+  </testsuite>
+  <testsuite name="03 - Cart and Order Workflow / Best Sellers (Admin)" id="37d29798-69ab-422f-b20b-0064c8b33bab" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.157">
+    <testcase name="HTTP 200" time="0.157" classname="03CartAndOrderWorkflowBestSellersAdmin"/>
+  </testsuite>
+  <testsuite name="03 - Cart and Order Workflow / Inventory Report (Admin)" id="785113d4-622e-4709-bb8c-5a5804772b71" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.154">
+    <testcase name="HTTP 200" time="0.154" classname="03CartAndOrderWorkflowInventoryReportAdmin"/>
+  </testsuite>
+  <testsuite name="04 - Negative and Security Tests / No Token - Cart 401" id="70f17331-ce4e-4c3a-a0bb-2a566932f152" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.006">
+    <testcase name="HTTP 401" time="0.006" classname="04NegativeAndSecurityTestsNoTokenCart401"/>
+  </testsuite>
+  <testsuite name="04 - Negative and Security Tests / Customer Cannot Create Product 403" id="9bd2f8e1-2c41-4ecc-8a06-f47115589c1e" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.076">
+    <testcase name="HTTP 403" time="0.076" classname="04NegativeAndSecurityTestsCustomerCannotCreateProduct403"/>
+  </testsuite>
+  <testsuite name="04 - Negative and Security Tests / Seller Cannot Create Category 403" id="41ca041f-590b-4515-9723-b953d4051c38" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.091">
+    <testcase name="HTTP 403" time="0.091" classname="04NegativeAndSecurityTestsSellerCannotCreateCategory403"/>
+  </testsuite>
+  <testsuite name="04 - Negative and Security Tests / Invalid Product Price 400" id="4fe13c78-cb44-4dfe-8732-664aeedb2045" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.086">
+    <testcase name="HTTP 400" time="0.086" classname="04NegativeAndSecurityTestsInvalidProductPrice400"/>
+  </testsuite>
+  <testsuite name="04 - Negative and Security Tests / Product Not Found 404" id="32a97511-bf16-4261-8370-0b8c5d43b9dd" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.071">
+    <testcase name="HTTP 404" time="0.071" classname="04NegativeAndSecurityTestsProductNotFound404"/>
+  </testsuite>
+  <testsuite name="04 - Negative and Security Tests / Malformed Product ID 400" id="1fcf6d06-ace6-4937-a58b-e9a688deaa1c" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.005">
+    <testcase name="HTTP 400" time="0.005" classname="04NegativeAndSecurityTestsMalformedProductId400"/>
+  </testsuite>
+  <testsuite name="04 - Negative and Security Tests / Duplicate Category 409" id="d3615326-c6d9-44de-b5e0-90e4c1e0167b" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.154">
+    <testcase name="HTTP 409" time="0.154" classname="04NegativeAndSecurityTestsDuplicateCategory409"/>
+  </testsuite>
+  <testsuite name="04 - Negative and Security Tests / Add Beyond Available Stock 409" id="ae613d86-e4a2-400d-9021-d8710a735af5" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.583">
+    <testcase name="HTTP 409" time="0.583" classname="04NegativeAndSecurityTestsAddBeyondAvailableStock409"/>
+  </testsuite>
+  <testsuite name="04 - Negative and Security Tests / Delivered Order Cannot Return to Processing 409" id="5e9aa04a-eb2d-4f3a-97a0-37018289b9aa" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.153">
+    <testcase name="HTTP 409" time="0.153" classname="04NegativeAndSecurityTestsDeliveredOrderCannotReturnToProcessing409"/>
+  </testsuite>
+  <testsuite name="04 - Negative and Security Tests / Delivered Order Cannot be Cancelled 409" id="545f3c2c-c421-4b62-a72a-3ce567b042b3" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.155">
+    <testcase name="HTTP 403" time="0.155" classname="04NegativeAndSecurityTestsDeliveredOrderCannotBeCancelled409"/>
+  </testsuite>
+  <testsuite name="04 - Negative and Security Tests / Missing Product Name 400" id="c7920a21-f135-426d-b009-334c6aba780a" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.076">
+    <testcase name="HTTP 400" time="0.076" classname="04NegativeAndSecurityTestsMissingProductName400"/>
+  </testsuite>
+  <testsuite name="05 - Token Rotation / Rotate Customer Refresh Token" id="4ef1c0b5-ce6b-4416-b1d8-45f0b1389f02" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.246">
+    <testcase name="HTTP 200" time="0.246" classname="05TokenRotationRotateCustomerRefreshToken"/>
+  </testsuite>
+  <testsuite name="05 - Token Rotation / Old Refresh Token Reuse 401" id="8132207e-7aed-43e2-b280-befd12099047" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.077">
+    <testcase name="HTTP 401" time="0.077" classname="05TokenRotationOldRefreshTokenReuse401"/>
+  </testsuite>
+  <testsuite name="05 - Token Rotation / Logout Customer" id="d6995a41-8b80-400c-aa54-d34a48eb3a0f" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.084">
+    <testcase name="HTTP 200" time="0.084" classname="05TokenRotationLogoutCustomer"/>
+  </testsuite>
+  <testsuite name="05 - Token Rotation / Revoked Refresh Token 401" id="a88da603-22fc-4b3b-9710-531807936925" timestamp="2026-11-14T23:42:36.710Z" tests="1" failures="0" errors="0" time="0.086">
+    <testcase name="HTTP 401" time="0.086" classname="05TokenRotationRevokedRefreshToken401"/>
+  </testsuite>
+</testsuites>

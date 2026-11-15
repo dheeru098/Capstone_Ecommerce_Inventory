@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Live Order Notifications</title>
+  <style>
+    body { max-width: 760px; margin: 50px auto; padding: 20px; font: 16px/1.5 system-ui, sans-serif; background: #f5f7fc; color: #142035; }
+    main { background: white; padding: 30px; border-radius: 16px; box-shadow: 0 6px 35px #15254012; }
+    h1 { margin-top: 0; } input, button { box-sizing: border-box; padding: 12px; margin: 5px 0; border-radius: 7px; font: inherit; }
+    input { width: 100%; border: 1px solid #cbd5e1; } button { background: #164fb5; color: white; border: none; cursor: pointer; }
+    pre { background: #edf1f8; padding: 15px; min-height: 180px; white-space: pre-wrap; overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Live order notifications</h1>
+    <p>Log in through Postman, copy your access token, paste it here and connect. Use another Postman request to place an order or update its status.</p>
+    <input id="token" placeholder="Paste access token">
+    <button id="connect">Connect</button>
+    <pre id="events">Waiting for connection.</pre>
+  </main>
+  <script src="http://localhost:5000/socket.io/socket.io.js"></script>
+  <script>
+    let socket;
+    const output = document.getElementById('events');
+    document.getElementById('connect').addEventListener('click', () => {
+      if (socket) socket.disconnect();
+      output.textContent = '';
+      socket = io('http://localhost:5000', { auth: { token: document.getElementById('token').value.trim() } });
+      for (const event of ['connection:ready', 'order:placed', 'order:new', 'order:status', 'inventory:low']) {
+        socket.on(event, (data) => { output.textContent += `${event}: ${JSON.stringify(data)}\n`; });
+      }
+      socket.on('connect_error', (error) => { output.textContent += `Error: ${error.message}\n`; });
+    });
+  </script>
+</body>
+</html>
